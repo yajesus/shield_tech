@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.header_contain {
+    width: 100%;
+    height: 117px;
+    background-color: rgba(37, 31, 26, 1);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 50px;
+
+}
+
+.right_header {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.headerlist_contain {
+    width: 487px;
+    height: 36px;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.list {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header_btn {
+    width: 154px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    gap: 10px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: rgba(37, 31, 26, 1);
+    margin-right: 60px;
+}
+
+.header_logo {
+    width: 500px;
+    height: 150%;
+    top: 20%;
+    position: absolute;
+    left: -50px;
+}
+
+.tab_logo {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: none;
+}
+
+.header_tabcontain {
+    width: 100%;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    background-color: rgba(37, 31, 26, 1);
+    position: absolute;
+}
+
+.header-tabright {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    align-items: center;
+
+}
+
+.tabicon {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.side_tabcontain {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+}
+
+.side_tabheader {
+    width: 691px;
+    height: 656px;
+    background-color: rgba(37, 31, 26, 1);
+    border-radius: 0px,
+        0px,
+        0px,
+        15px;
+    position: absolute;
+    z-index: 6;
+}
+
+.tabside_header {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+
+    justify-content: center;
+
+
+}
+
+.tab_cancel {
+    margin-left: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.tablist_contain {
+    display: flex;
+    width: 90%;
+    height: 300px;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    margin-top: -20px;
+
+}
+
+.tab_list {
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo1 {
+    width: 100px;
+    height: 62px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+.tab_cancel {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin-right: -190px;
+}
+
+.tabheadr_btn {
+    width: 196px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    color: rgba(37, 31, 26, 1);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.headaer_socialcontain {
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+}
+
+.side_icons {
+    width: 39px;
+    height: 39px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.header_main {
+    width: 100%;
+    height: 775px;
+    background-color: rgba(196, 196, 196, 1);
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    justify-content: right;
+}
+
+.header_vector {
+
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+
+.header_vector1 {
+    margin-left: 95%;
+}
+
+.title_contain {
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.sheild_img {
+    right: 0;
+}
+
+.header_title {
+    width: 600px;
+    height: 73px;
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    position: absolute;
+
+}
+
+.header_undertitle {
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    width: 45%;
+    height: 73px;
+}
+
+.titleinner_contain {
+    width: 100%;
+
+    height: 400px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+.sheild_img {
+    width: 590px;
+    height: 590px;
+    right: 0;
+    position: absolute;
+}
+
+@media (max-width:1024px) {
+    .headerlist_contain {
+        display: none;
+    }
+
+    .header_tabcontain {
+        display: block;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .header_contain {
+        display: none;
+    }
+
+    .tab_logo {
+        top: -30%;
+        display: block;
+    }
+}
+
+@media (max-width:480px) {
+    .tab_logo {
+        display: none;
+    }
+
+    .side_tabheader {
+        width: 341px;
+        height: 656px;
+    }
+
+    .side_tabheader {
+        overflow-x: hidden;
+    }
+
+    .sidelogo {
+        margin-left: -30px;
+    }
+
+    .tab_cancel {
+        margin-left: 100px;
+    }
+
+    .sidelogo {
+        width: 200px;
+
+    }
+
+    .tab_cancel {
+        width: 24px;
+        height: 24px;
+        margin-top: -80px;
+        margin-left: 20px;
+    }
+
+    .tabside_header {
+        display: flex;
+        align-items: center;
+        height: 150px;
+    }
+
+    .tablist_contain {
+        margin-top: 50px;
+    }
+}
